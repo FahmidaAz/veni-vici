@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+.app-container {
+  display: flex;
+  padding: 20px;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.banlist-container {
+  width: 200px; /* Set a fixed width for the ban list */
+  margin-left: 20px;
+  background-color:black;
+  border-radius: 5PX;
+ 
+}
+
+.banned-movie {
+  background-color: #ffebee; /* Light red background for banned movies */
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+.favourite-container{
+  background-color: #888;
+  width: 200px; /* Set a fixed width for the ban list */
+  margin-left: 20px;
+  border-radius: 5PX;
+}
